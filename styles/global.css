@@ -1,0 +1,28 @@
+html,
+body {
+  background-color: gray;
+  padding: 50px;
+  margin: 50px;
+  line-height: 1.6;
+  font-size: 30px;
+  font-family: cursive;
+}
+ 
+* {
+  box-sizing: border-box;
+}
+ 
+a {
+  color: greenyellow;
+  text-decoration: none;
+}
+ 
+a:hover {
+  text-decoration: underline;
+}
+ 
+img {
+  max-width: 100%;
+  display: block;
+}
+

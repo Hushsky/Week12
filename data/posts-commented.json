@@ -1,0 +1,94 @@
+// This is a JSON array containing blog post data
+// Each object in the array represents a single blog post
+[
+    // First blog post object - starts with opening brace
+    { 
+        // Post title property - the main heading of the blog post
+        "title": "The day I got my first Pet",
+        
+        // Publication date in YYYY-MM-DD format for easy sorting and parsing
+        "date": "2025-09-14",
+        
+        // HTML content of the post - contains the actual blog post content with HTML tags
+        // This allows for rich text formatting like paragraphs, bold text, etc.
+        "contentHtml": "<p>On September 14. For so long I felt like I needed something, like an companion. So I scoll on google and Found a very adorable cat named Jasmine. I decide to went to visit Jasmine, I wasn't expect to just take her home but after seeing her for the first time, I could not hold it and decide to adopt her right on the spot.</p>",
+        
+        // Unique identifier for this post - used for routing and database operations
+        "id": 1,
+        
+        // Author name - who wrote this blog post
+        "author": "Hoang Cao"
+    }, // End of first post object, comma separates it from the next object
+
+    // Second blog post object - starts with opening brace
+    { 
+        // Post title for the career-related blog post
+        "title": "What I want to be as a career",
+        
+        // Publication date for the career post
+        "date": "2025-09-15",
+        
+        // HTML content describing the author's career journey and decisions
+        "contentHtml": "<p>At first I didn't know what I wanted to be, I see multiple Police men driving around my city and think I wanted to become one of them, I like to obey the law and I want to protect everyone around me. But I don't feel like it was meant for me, I decide to choose the career path as a game developer because I enjoy playing video games more than anything, but after two years in college learning the basics of game design, I felt like it wasn't for me. I thought I would enjoy making video games same as playing, but it was too complicated and I wasn't enjoy doing it. So now I switched to Full-Stack-Developer since I really enjoyed making websites, its fun and I can use my imagination to create websites.</p>",
+        
+        // Unique identifier for this post
+        "id": 2,
+        
+        // Author name for this post
+        "author": "Hoang Cao"
+    }, // End of second post object, comma separates it from the next object
+    
+    // Third blog post object - starts with opening brace
+    { 
+        // Post title about hobbies
+        "title": "My Hobby",
+        
+        // Publication date for the hobby post
+        "date": "2025-09-01",
+        
+        // HTML content about the author's gaming hobby and skills gained
+        "contentHtml": "<p>I love playing Video Games, in fact I've played Video Games for most of my life now. I mostly play PC games such as League of Legends or Valorant plus Steam games. Thanks to these game that I played for most of my life, I was able to gain multiple useful skills in life such as Multitasking, Fast Learner, Fast Thinking and Quick Reflect.</p>",
+        
+        // Unique identifier for this post
+        "id": 3,
+        
+        // Author name for this post
+        "author": "Hoang Cao"
+    }, // End of third post object, comma separates it from the next object
+    
+    // Fourth blog post object - starts with opening brace
+    { 
+        // Post title about Next.js pre-rendering concepts
+        "title": "Two Forms of Pre-rendering",
+        
+        // Publication date for the technical post
+        "date": "2022-01-01",
+        
+        // HTML content explaining Next.js pre-rendering methods
+        "contentHtml": "<p>Next.js has two forms of pre-rendering: <strong>Static Generation</strong> and <strong>Server-side Rendering</strong>. The difference is in <strong>when</strong> it generates the HTML for a page.</p>",
+        
+        // Unique identifier for this post
+        "id": 4,
+        
+        // Author name for this technical post
+        "author": "Next.js"
+    }, // End of fourth post object, comma separates it from the next object
+    
+    // Fifth blog post object - starts with opening brace
+    { 
+        // Post title about choosing between rendering methods
+        "title": "When to Use Static Generation v.s. Server-side Rendering",
+        
+        // Publication date for this technical post
+        "date": "2022-01-02",
+        
+        // HTML content with recommendations for choosing rendering strategies
+        "contentHtml": "<p>We recommend using <strong>Static Generation</strong> (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.</p>",
+        
+        // Unique identifier for this post
+        "id": 5,
+        
+        // Author name for this technical post
+        "author": "Next.js"
+    } // End of fifth post object - no comma needed as it's the last object
+] // End of the main JSON array

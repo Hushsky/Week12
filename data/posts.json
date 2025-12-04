@@ -1,0 +1,38 @@
+[
+    { 
+        "title": "The day I got my first Pet",
+        "date": "2025-09-14",
+        "contentHtml": "<p>On September 14. For so long I felt like I needed something, like an companion. So I scoll on google and Found a very adorable cat named Jasmine. I decide to went to visit Jasmine, I wasn't expect to just take her home but after seeing her for the first time, I could not hold it and decide to adopt her right on the spot.</p>",
+        "id": 1,
+        "author": "Hoang Cao"
+    },
+
+    { 
+        "title": "What I want to be as a career",
+        "date": "2025-09-15",
+        "contentHtml": "<p>At first I didn't know what I wanted to be, I see multiple Police men driving around my city and think I wanted to become one of them, I like to obey the law and I want to protect everyone around me. But I don't feel like it was meant for me, I decide to choose the career path as a game developer because I enjoy playing video games more than anything, but after two years in college learning the basics of game design, I felt like it wasn't for me. I thought I would enjoy making video games same as playing, but it was too complicated and I wasn't enjoy doing it. So now I switched to Full-Stack-Developer since I really enjoyed making websites, its fun and I can use my imagination to create websites.</p>",
+        "id": 2,
+        "author": "Hoang Cao"
+    },
+    { 
+        "title": "My Hobby",
+        "date": "2025-09-01",
+        "contentHtml": "<p>I love playing Video Games, in fact I've played Video Games for most of my life now. I mostly play PC games such as League of Legends or Valorant plus Steam games. Thanks to these game that I played for most of my life, I was able to gain multiple useful skills in life such as Multitasking, Fast Learner, Fast Thinking and Quick Reflect.</p>",
+        "id": 3,
+        "author": "Hoang Cao"
+    },
+    { 
+        "title": "Two Forms of Pre-rendering",
+        "date": "2022-01-01",
+        "contentHtml": "<p>Next.js has two forms of pre-rendering: <strong>Static Generation</strong> and <strong>Server-side Rendering</strong>. The difference is in <strong>when</strong> it generates the HTML for a page.</p>",
+        "id": 4,
+        "author": "Next.js"
+    },
+    { 
+        "title": "When to Use Static Generation v.s. Server-side Rendering",
+        "date": "2022-01-02",
+        "contentHtml": "<p>We recommend using <strong>Static Generation</strong> (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.</p>",
+        "id": 5,
+        "author": "Next.js"
+    }
+]
